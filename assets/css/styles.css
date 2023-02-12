@@ -47,9 +47,11 @@ a {
 .line-clamp {
     display: -webkit-box;
     -webkit-line-clamp: var(--line-clamp, 2);
+    /* Tạo giá trị mặc định bằng 2 nếu không dược khai  */
     -webkit-box-orient: vertical;
     overflow: hidden;
 }
+/* Chuyen nhieu dong thanh 2 dong */
 
 /* Fixed header */
 .fixed-header {
@@ -337,6 +339,7 @@ a {
     width: 100%;
     height: 227px;
     object-fit: cover;
+    /* Giu dung ti le anh */
     border-top-left-radius: 12px;
     border-top-right-radius: 12px;
 }
